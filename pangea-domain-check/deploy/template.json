@@ -5,10 +5,6 @@
     {
       "id": "pre-user-registration",
       "version": "v2"
-    },
-    {
-      "id": "post-login",
-      "version": "v2"
     }
   ]
 }

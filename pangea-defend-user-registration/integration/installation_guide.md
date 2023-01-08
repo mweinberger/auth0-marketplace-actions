@@ -9,8 +9,8 @@ Pangea is a collection of security services, all API-based, that can quickly and
 
 To configure the integration with Pangea:
 
-1. Configure Pangea Secure Audit log following [the configuration guide](https://docs.aws.us.pangea.cloud/docs/getting-started/configure-services/).
-2. When you create your token in the guide, make sure it also has access to embargo and domain intel
+1. Configure Pangea Secure Audit Log, Embargo, and Domain Intel following [the configuration guide](https://docs.aws.us.pangea.cloud/docs/getting-started/configure-services/).
+2. When you create your token in the guide, make sure it also has access to Secure Audit Log, Embargo and Domain Intel
 3. Save your Pangea token and Audit log ConfigId
 
 ## Add the Auth0 Action
@@ -21,7 +21,7 @@ To configure the integration with Pangea:
 1. Read the necessary access requirements, and select **Continue**.
 1. Configure the integration using the following fields:
    * CONFIGID - The ConfigId that you saved from the Pangea Secure Audit Log service.
-   * TOKEN - The token that you saved from the Pangea configuratio guide which has access to secure audit log, embargo and domain intel
+   * TOKEN - The token that you saved from the Pangea configuration guide which has access to Secure Audit Log, Embargo and Domain Intel
 1. Add the integration to your Library by selecting **Create**.
 1. In the modal that appears, select the **Add to flow** link.
 1. Drag the Action into the desired location in the flow.
@@ -30,8 +30,8 @@ To configure the integration with Pangea:
 ## Results
 
 Once the Action is added, new user registrations will be defended by Pangea APIs.
-Each new user registration will be checked against Pangea embargo, and Pangea domain intel.
-The user will be accepted or rejected, and the results will be written to Pangea secure audit log.
+Each new user registration will be checked against Pangea Embargo, and Pangea Domain Intel.
+The user will either be accepted or rejected, and the results will be written to Pangea Secure Audit Log.
 
 ## Troubleshooting
 
