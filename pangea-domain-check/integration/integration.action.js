@@ -51,6 +51,6 @@ exports.onExecutePostLogin = async (event, api) => {
 		      data["message"] = "Failed Domain Check - " + domain_response.summary;
 		    };
 	  //console.log("Data: ", data);
-	  const logResponse = await audit.log(data);
+	  //const logResponse = await audit.log(data);
 	  //console.log("Data: ", logResponse)
 	};
