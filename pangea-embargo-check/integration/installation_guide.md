@@ -3,13 +3,13 @@ Pangea is a collection of security services, all API-based, that can quickly and
 ## Prerequisites
 
 1. An Auth0 account and tenant. [Sign up for free](https://auth0.com/signup).
-2. A Pangea account [Sign up for free](https://console.pangea.cloud/?signup=1).
+2. A Pangea account [Sign up for free](https://pangea.cloud/signup?utm_medium=auth0-marketplace&utm_source=marketplace&utm_campaign=auth0-marketplace).
 
 ## Set up Pangea
 
 To configure the integration with Pangea:
 
-1. Configure Pangea Secure Audit Log and Embargo services following [the configuration guide](https://docs.aws.us.pangea.cloud/docs/getting-started/configure-services/).
+1. Configure Pangea Secure Audit Log and Embargo services following [the configuration guide](https://pangea.cloud/docs/getting-started/configure-services/).
 2. When you create your token in the guide, make sure it has access to both Secure Audit Log and Embargo
 3. Save your Pangea token and Audit log ConfigId
 
